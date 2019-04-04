@@ -1,9 +1,11 @@
 validate/validate.csv summarizes the validation process.
 
-Lessions learned from screening: most relevant papers found contain the keyword prioriti* in the title or abstract (237/242). Therefore we use a smaller set of candidate papers to validate the FASTREAD screening result.
+**Lessions learned from screening**: most relevant papers found contain the keyword prioriti* in the title or abstract (237/242). Therefore we use a smaller set of candidate papers to validate the FASTREAD screening result.
   + Keywords: (software AND test AND prioriti*)
   + Number: 783
   + file: prior.csv
+
+**Three set of labels**:
 
  - FASTREAD (ZY 3 hours): 242/470 (8349), in prior: 237/(237+81=318), not in prior: 5/389
 
@@ -11,7 +13,7 @@ Lessions learned from screening: most relevant papers found contain the keyword 
 
  - Full-text validation (40 hours) on (ZY=yes OR Manual review=yes), label: 280/307
 
-FASTREAD (ZY) vs Manual review (Majority Vote)
+**FASTREAD (ZY) vs Manual review (Majority Vote)**
 
 	+ TP: 223 (ZY=yes AND Majority Vote=yes)
 	+ TN: 476=49+427 (ZY=no AND Majority Vote=no)+(ZY=undetermined AND Majority Vote=no)
@@ -20,7 +22,7 @@ FASTREAD (ZY) vs Manual review (Majority Vote)
 	+ Precision: 0.94
 	+ Recall: 0.76
 
-FASTREAD (ZY) vs Full-text validation (label)
+**FASTREAD (ZY) vs Full-text validation (label)**
 
 	+ TP: 234
 	+ TN: 500=66+434
@@ -29,7 +31,7 @@ FASTREAD (ZY) vs Full-text validation (label)
 	+ Precision: 0.99
 	+ Recall: 0.84=0.89*0.94
 
-Manual review (Majority Vote) vs Full-text validation (label)
+**Manual review (Majority Vote) vs Full-text validation (label)**
 
 	+ TP: 266
 	+ TN: 476
