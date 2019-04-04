@@ -2,7 +2,7 @@
 
 Search (8349, 1 hour for refining search string) -> Screen (242/470, 3 hours to reach 90% estimated recall with FASTREAD) -> full-text review (40 hours)
 
-## Search
+## [Search](https://github.com/fastread/SLR_on_TCP/tree/master/search)
 
  - IEEE Xplore: 
    + Keywords: (software AND test AND (rank OR optimi* OR prioriti*))
@@ -15,7 +15,7 @@ https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&matchBoolean=t
    + [search/ieeexplore.csv](https://github.com/fastread/SLR_on_TCP/blob/master/search/ieeexplore.csv)
 
 
-## Screen
+## [Screen](https://github.com/fastread/SLR_on_TCP/tree/master/screen)
 
 Rule:
  + about test prioritization (sometimes with test selection and test generation) (sometimes test optimization in the title includes test selection and prioritization)
@@ -31,7 +31,7 @@ Cost:
 Result:
  + [screen/test_prior_90.csv](https://github.com/fastread/SLR_on_TCP/blob/master/screen/test_prior_90.csv)
 
-## Full-text review
+## [Full-text review](https://github.com/fastread/SLR_on_TCP/tree/master/full-text)
 
 Cost:
  + 40 hours to review 242 full-text papers.
@@ -78,7 +78,7 @@ Result:
      - no knowledge of failure-fault mapping
    + **early failure** (can use similar calculation as APFD)
    
-## Validate
+## [Validation](https://github.com/fastread/SLR_on_TCP/tree/master/validate)
 
 Result:
  + [validate/validate.csv](https://github.com/fastread/SLR_on_TCP/blob/master/validate/validate.csv)
