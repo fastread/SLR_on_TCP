@@ -11,6 +11,9 @@ Search (8349, 1 hour for refining search string) -> Screen (242/470, 3 hours to 
 ```
 https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&matchBoolean=true&searchField=Search_All&queryText=(software%20AND%20test%20AND%20(rank%20OR%20optimi*%20OR%20prioriti*))&highlight=true&returnType=SEARCH&refinements=ContentType:Conferences&refinements=ContentType:Journals%20.AND.%20Magazines&returnFacets=ALL&rowsPerPage=100
 ```
+ - Result: 
+   + [search/ieeexplore.csv](https://github.com/fastread/SLR_on_TCP/blob/master/search/ieeexplore.csv)
+
 
 ## Screen
 
@@ -25,10 +28,16 @@ Cost:
  + 2 hours to screen 211/300 (8349) Estimated Number of Relevant Studies: 280
  + 3 hours to screen 242/470 (8349) Estimated Number of Relevant Studies: 266 (90% recall)
 
+Result:
+ + [screen/test_prior_90.csv](https://github.com/fastread/SLR_on_TCP/blob/master/screen/test_prior_90.csv)
+
 ## Full-text review
 
 Cost:
  + 40 hours to review 242 full-text papers.
+
+Result:
+ + [full-text/test_prior_90.xlsx](https://github.com/fastread/SLR_on_TCP/blob/master/full-text/test_prior_90.xlsx)
 
 **Input type**:
  - 198 white-box
@@ -71,7 +80,8 @@ Cost:
    
 ## Validate
 
-validate/validate.csv summarizes the validation process.
+Result:
+ + [validate/validate.csv](https://github.com/fastread/SLR_on_TCP/blob/master/validate/validate.csv)
 
 **Lessions learned from screening**: most relevant papers found contain the keyword prioriti* in the title or abstract (237/242). Therefore we use a smaller set of candidate papers to validate the FASTREAD screening result.
   + Keywords: (software AND test AND prioriti*)
