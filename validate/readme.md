@@ -25,19 +25,19 @@ validate/validate.csv summarizes the validation process.
 **FASTREAD (ZY) vs Full-text validation (label)**
 
 	+ TP: 234
-	+ TN: 500=66+434
+	+ TN: 506=69+437 (ZY=no AND Full-text=no)+(ZY=undetermined AND Full-text=no)
 	+ FP: 3
-	+ FN: 46=15+31
-	+ Precision: 0.99
-	+ Recall: 0.84=0.89*0.94
+	+ FN: 40=12+28 (ZY=no AND Full-text=yes)+(ZY=undetermined AND Full-text=yes)
+	+ Precision: 0.99 (ZY precision)
+	+ Recall: 0.85=0.90*0.95 (FASTREAD recall * ZY recall)
 
 **Manual review (Majority Vote) vs Full-text validation (label)**
 
-	+ TP: 266
+	+ TP: 260
 	+ TN: 476
-	+ FP: 27
+	+ FP: 33
 	+ FN: 14
-	+ Precision: 0.91
+	+ Precision: 0.89
 	+ Recall: 0.95
 
 
