@@ -2,7 +2,7 @@
 
 FASTREAD: Search (8349, 1 hour for refining search string) -> Screen (242/470, 3 hours to reach 90% estimated recall with FASTREAD) -> full-text review (40 hours)
 
-Validation: Search (783 containing 237/318 of the FASTREAD screening result) -> Screen (293/783 * 2, 2 * 6 hours) 
+Validation: Search (783 containing 237/318 of the FASTREAD screening result) -> Screen (293/783 * 2, 2 * 6 hours) -> full-text validation for missing papers ((274-239)/(307-239) = 35/68, 6 hours)
 
 ## [Search](https://github.com/fastread/SLR_on_TCP/tree/master/search)
 
@@ -93,7 +93,7 @@ Result:
 
  - Manual review (6 people each 2 hours): 293/783 (783*2+174=1740)
 
- - Full-text validation (40 hours) on (ZY=yes OR Manual review=yes), label: 280/307
+ - Full-text validation (40 hours) on (ZY=yes OR Manual review=yes), label: 274/307
 
 **FASTREAD (ZY) vs Manual review (Majority Vote)**
 
@@ -107,17 +107,17 @@ Result:
 **FASTREAD (ZY) vs Full-text validation (label)**
 
 	+ TP: 234
-	+ TN: 500=66+434
+	+ TN: 506=69+437 (ZY=no AND Full-text=no)+(ZY=undetermined AND Full-text=no)
 	+ FP: 3
-	+ FN: 46=15+31
-	+ Precision: 0.99
-	+ Recall: 0.84=0.89*0.94
+	+ FN: 40=12+28 (ZY=no AND Full-text=yes)+(ZY=undetermined AND Full-text=yes)
+	+ Precision: 0.99 (ZY precision)
+	+ Recall: 0.85=0.90*0.95 (FASTREAD recall * ZY recall)
 
 **Manual review (Majority Vote) vs Full-text validation (label)**
 
-	+ TP: 266
+	+ TP: 260
 	+ TN: 476
-	+ FP: 27
+	+ FP: 33
 	+ FN: 14
-	+ Precision: 0.91
+	+ Precision: 0.89
 	+ Recall: 0.95
