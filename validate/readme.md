@@ -11,7 +11,7 @@ validate/validate.csv summarizes the validation process.
 
  - Manual review (6 people each 2 hours): 293/783 (783*2+174=1740)
 
- - Full-text validation (40 hours) on (ZY=yes OR Manual review=yes), label: 280/307
+ - Full-text validation (6 hours, full-text_for_missing.csv) on (ZY=yes OR Manual review=yes), label: (274-237)/(307-237) = 37/70
 
 **FASTREAD (ZY) vs Manual review (Majority Vote)**
 
