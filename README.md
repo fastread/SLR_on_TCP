@@ -2,7 +2,7 @@
 
 FASTREAD: Search (8349, 1 hour for refining search string) -> Screen (242/470, 3 hours to reach 90% estimated recall with FASTREAD) -> full-text review (40 hours)
 
-Validation: Search (783 containing 237/318 of the FASTREAD screening result) -> Screen (293/783 * 2, 2 * 6 hours) -> full-text validation for missing papers ((274-239)/(307-239) = 35/68, 6 hours)
+Validation: Search (783 containing 237/318 of the FASTREAD screening result) -> Screen (293/783 * 2, 2 * 6 hours) -> full-text validation for missing papers ((274-237)/(307-237) = 37/70, 6 hours)
 
 ## [Search](https://github.com/fastread/SLR_on_TCP/tree/master/search)
 
