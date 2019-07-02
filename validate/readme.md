@@ -1,4 +1,7 @@
-validate/validate.csv summarizes the validation process.
+**Data files**
+ - validate.csv summarizes the validation process.
+ - full-text_for_missing.csv records the full-text review labels for the missing files (ZY=yes OR Manual review=yes).
+ - test_prior_missing.xlsx analyzes the distributions in missing files as well as in the early full-text reviewed files + missing files.
 
 **Lessions learned from screening**: most relevant papers found contain the keyword prioriti* in the title or abstract (237/242). Therefore we use a smaller set of candidate papers to validate the FASTREAD screening result.
   + Keywords: (software AND test AND prioriti*)
