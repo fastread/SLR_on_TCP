@@ -107,17 +107,17 @@ Result:
 **FASTREAD (ZY) vs Full-text validation (label)**
 
 	+ TP: 234
-	+ TN: 506=69+437 (ZY=no AND Full-text=no)+(ZY=undetermined AND Full-text=no)
+	+ TN: 507=69+438 (ZY=no AND Full-text=no)+(ZY=undetermined AND Full-text=no)
 	+ FP: 3
-	+ FN: 40=12+28 (ZY=no AND Full-text=yes)+(ZY=undetermined AND Full-text=yes)
+	+ FN: 39=12+27 (ZY=no AND Full-text=yes)+(ZY=undetermined AND Full-text=yes)
 	+ Precision: 0.99 (ZY precision)
 	+ Recall: 0.85=0.90*0.95 (FASTREAD recall * ZY recall)
 
 **Manual review (Majority Vote) vs Full-text validation (label)**
 
-	+ TP: 260
+	+ TP: 259
 	+ TN: 476
-	+ FP: 33
+	+ FP: 34
 	+ FN: 14
-	+ Precision: 0.89
+	+ Precision: 0.88
 	+ Recall: 0.95
