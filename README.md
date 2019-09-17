@@ -4,6 +4,26 @@ FASTREAD: Search (8349, 1 hour for refining search string) -> Screen (242/470, 3
 
 Validation: Search (783 containing 237/318 of the FASTREAD screening result) -> Screen (293/783 * 2, 2 * 6 hours) -> full-text validation for missing papers ((274-237)/(307-237) = 37/70, 6 hours)
 
+## Cite As:
+```
+@ARTICLE{2019arXiv190907249Y,
+       author = {{Yu}, Zhe and {Carver}, Jeffrey C. and {Rothermel}, Gregg and
+         {Menzies}, Tim},
+        title = "{Searching for Better Test Case Prioritization Schemes: a Case Study of AI-assisted Systematic Literature Review}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Software Engineering},
+         year = "2019",
+        month = "Sep",
+          eid = {arXiv:1909.07249},
+        pages = {arXiv:1909.07249},
+archivePrefix = {arXiv},
+       eprint = {1909.07249},
+ primaryClass = {cs.SE},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190907249Y},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
+
 ## [Search](https://github.com/fastread/SLR_on_TCP/tree/master/search)
 
  - IEEE Xplore: 
