@@ -62,41 +62,7 @@ Result:
  + [full-text/test_prior_90.xlsx](https://github.com/fastread/SLR_on_TCP/blob/master/full-text/test_prior_90.xlsx)
 
 
-**Prioritization goals**:
- - 188 early fault detection
-    + 156 APFD (including APFDc)
- - 32 max coverage (better coverage does not mean early fault detection [176])
- - 7 early failure exposing [59, 183, 199, 200]
- - 20 none
 
-**Data**:
- - 50 no fault or failure
- - 179 injected faults
- - 10 real faults or failures
-
-**Information**:
- - 211 white-box
- - 28 black-box [59, 183] (source code, coverage information not available)
-
-**Method type**:
- - 137 unsupervised (using only coverage, source code, change information)
-   + search-based (e.g. GA, ACO, PSO)
-   + total coverage [167]: descending order of number of elements covered
-   + additional coverage [167]: one test case cover largest number of elements -> test cases furthest to the ones already scheduled -> iterate until no more elements can be covered
-   + clustering
- - 71 supervised (using failure information from previous runs or mutation testing information)
-   + machine learning (LR, SVM)
-   + frequency-based (simple count)
-   + fault-exposing-potential [167], need coverage info, if one element is covered, how likely it will expose a fault based on previous execution results.
-   + reinforcement learning from run to run
- - 10 active learning (using failure information from current run)
- 
-**Methods for black box**:
- - 13 history-based
- - 7 test case-based
- - 8 feedback-based
- 
-   
 ## [Validation](https://github.com/fastread/SLR_on_TCP/tree/master/validate)
 
 Result:
